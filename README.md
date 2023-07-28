@@ -1,7 +1,8 @@
+<img src="https://investment-tracker-58sr.onrender.com/static/media/investment-calculator-logo.c20da4d5b23f8d49ad00.png">
 # INVESTMENT-TRACKER
 This is Online Interest Calculator App.
 
-#Live Application URL
+# Live Application URL
 https://investment-tracker-58sr.onrender.com
 
 # Library Used
