@@ -5,9 +5,9 @@ This is Online Interest Calculator App.
 React.js
 
 # Dependancies
-1.react
-2.react-dom
-3.react-scripts
+1.react\n
+2.react-dom\n
+3.react-scripts\n
 
 # Formulae used for investment calculations
 1.Total-investment=CurrentSavings+(yearly savings X duration of investment)
