@@ -2,15 +2,15 @@
 This is Online Interest Calculator App.
 
 # Library Used
-React.js
+React.js<br/>
 
 # Dependancies
-1.react\n
-2.react-dom\n
-3.react-scripts\n
+1.react<br/>
+2.react-dom<br/>
+3.react-scripts<br/>
 
 # Formulae used for investment calculations
-1.Total-investment=CurrentSavings+(yearly savings X duration of investment)
-2.Total-Savings=CurrentSavings+ Total-interest
-3.Total-interest=yearly-interest X Duration
-4.yearly-interest=CurrentSavings X interest(in Rs.)
+1.Total-investment=CurrentSavings+(yearly savings X duration of investment)<br/>
+2.Total-Savings=CurrentSavings+ Total-interest<br/>
+3.Total-interest=yearly-interest X Duration<br/>
+4.yearly-interest=CurrentSavings X interest(in Rs.)<br/>
