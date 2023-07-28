@@ -1,3 +1,10 @@
+const Formatter = new Intl.NumberFormat('en-IN', {
+  style: 'currency',
+  currency: 'INR',
+  minimumFractionDigits: 2,
+  maximumFractionDigits: 2,
+});
+
 const DetailPerYear=(props)=>{
    return <table className="result">
  <thead>
@@ -13,10 +20,10 @@ const DetailPerYear=(props)=>{
  {props.yearlyDatas.map((element,index)=>{
       return <tr key={element.year}>
         <td>{element.year}</td>
-        <td>{element.savingsEndOfYear}</td>
-        <td>{element.yearlyInterest}</td>
-        <td>{element.total_interest}</td>
-        <td>{element.total_investment}</td>
+        <td>{Formatter.format(element.savingsEndOfYear)}</td>
+        <td>{Formatter.format(element.yearlyInterest)}</td>
+        <td>{Formatter.format(element.total_interest)}</td>
+        <td>{Formatter.format(element.total_investment)}</td>
       </tr>
     })}
  </tbody>
